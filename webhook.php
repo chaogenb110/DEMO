@@ -1,6 +1,6 @@
 <?php
-$secret = "";
-$path = "";
+$secret = "hooktest";
+$path = "/www/wwwroot/hook.dhjms.com/webhook.php";
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
 
 if ($signature){
